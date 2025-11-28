@@ -1,0 +1,29 @@
+def check_number_range(number):
+	if not isinstance(number, (int, float)):
+		print("Ошибка")
+		return
+
+	if number < 0 or number > 100:
+		if number < 0:
+			print("Ошибка")
+		else: number > 100
+			print("Ошибка")
+	elif 0 <= number <= 10:
+			print(f"0 - 10")
+	elif 11 <= number <= 20 :
+			print(f"11 - 20")
+	elif 21 <= number <= 30 :
+			print(f"21 - 30")
+	elif 31 <= number <= 40 :
+			print(f"31 - 40")
+	elif 41 <= number <= 50 :
+			print(f"51 - 60")
+	elif 61 <= number <= 70 :
+			print(f"61 - 70")
+	elif 71 <= number <= 80 :
+			print(f"71 - 80")
+	elif 81 <= number <= 90 :
+			print(f"81 - 90")
+	elif 91 <= number <= 100 :
+			print(f"91 - 100")
+
